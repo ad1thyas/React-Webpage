@@ -22,28 +22,3 @@ function MainContent() {
   );
 }
 export default MainContent;
-
-maincontent.css:
-.main-content {
-  display: flex;
-  align-items: flex-start;
-  padding: 20px;
-  gap: 20px; }
-.main-content img {
-  width: 135px;
-  height: auto;
-  border-radius: 8px;
-  margin-top: 30px; 
-}
-.main-text h1  {
-  font-size: 1.8rem;
-  font-weight: bold;
-  margin-bottom: 10px;
-  font-family: "times new roman";
-}
-.main-text p {
-  font-size: 1rem;
-  line-height: 1.6;
-  text-align: justify;
-  font-family: 'Times New Roman';
-}
